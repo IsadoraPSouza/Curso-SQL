@@ -1,0 +1,25 @@
+5. Escreva o comando para inserir 3 registros da tabela estado com todas as colunas. 
+
+INSERT INTO estado (id,nome,sigla,ativo,data_cadastro) VALUES (DEFAULT, 'PARANÁ','PR','S','2021-10-04');
+INSERT INTO estado (id,nome,sigla,ativo,data_cadastro) VALUES (DEFAULT, 'GOIÁS','GO','S','2021-06-08');
+INSERT INTO estado (id,nome,sigla,ativo,data_cadastro) VALUES (DEFAULT, 'CEARÁ','CE','S','2022-01-25');
+
+6. Escreva o comando para inserir 2 registros da tabela estado, definindo todos os dados, exceto a chave  primária que é auto incremento. 
+
+INSERT INTO estado (id,nome,sigla,ativo,data_cadastro) VALUES (DEFAULT, 'GOIÁS','GO','S','2021-06-08');
+INSERT INTO estado (id,nome,sigla,ativo,data_cadastro) VALUES (DEFAULT, 'CEARÁ','CE','S','2022-01-25');
+
+7. Escreva o comando para inserir 2 registros da tabela estado, definindo somente os dados necessários.
+
+INSERT INTO estado (nome,sigla) VALUES ('GOIÁS','GO');
+INSERT INTO estado (nome,sigla) VALUES ('CEARÁ','CE');
+
+8. Escreva o comando para inserir registros da tabela cidade das 3 formas apresentadas nos exercícios  anteriores.  
+
+INSERT INTO estado (id,nome,sigla,ativo,data_cadastro) VALUES (DEFAULT, 'PARANÁ','PR','S','2021-10-04');
+INSERT INTO estado (id,nome,sigla,ativo,data_cadastro) VALUES (DEFAULT, 'CEARÁ','CE',DEFAULT,DEFAULT);
+INSERT INTO estado (nome,sigla) VALUES ('CEARÁ','CE');
+
+9. Faça a inserção de 2 registros de cliente.  
+10. DESAFIO!!! Tente fazer todas as inserções necessárias para que se tenha um item de caixa. Na medida  que esteja digitando o código, 
+tente associar os dados inseridos com o contexto real.
